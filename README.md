@@ -1,4 +1,6 @@
 # Landing Page Clínica - **Responsivo**
+
+**Atenção!** site em construção.
 ![Descrição da Imagem](https://github.com/EriveltonMGit/Project_clinica/raw/main/src/assets/img/img-capa.png)
 
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
