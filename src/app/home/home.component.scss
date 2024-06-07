@@ -1,0 +1,3954 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section {
+    background-color: #4c988a;
+    width: 100vw;
+    height: 96vh;
+
+
+}
+
+#header-icon {
+
+
+    width: 80vw;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icon {
+
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0.5rem;
+    gap: 1rem;
+
+
+}
+
+.icon img {
+    width: 3vw;
+
+}
+
+.icon h2 {
+    font-size: 1.2vw;
+    color: #000;
+}
+
+.logo img {
+    width: 7vw;
+
+}
+
+.logo {
+    padding: 0.5rem;
+
+
+}
+
+/* _______Section MIDIA SCREEM  1400px _______ */
+@media screen and (max-width:1400px) {
+    #section {
+        background-color: #4c988a;
+        width: 100vw;
+        height: 96vh;
+
+
+    }
+
+    #header-icon {
+
+
+        width: 80vw;
+
+        margin: 0 auto;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .icon {
+
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 0.5rem;
+        gap: 1rem;
+
+
+    }
+
+    .icon img {
+        width: 2.5vw;
+
+    }
+
+    .icon h2 {
+        font-size: 1vw;
+        color: #000;
+    }
+
+    .logo img {
+        width: 10vw;
+
+    }
+
+    .logo {
+        padding: 0.5rem;
+
+
+    }
+
+
+}
+
+/* _______Section MIDIA SCREEM 1000px _______ */
+@media screen and (max-width:1000px) {
+    #section {
+        background-color: #4c988a;
+        width: 100vw;
+        height: 96vh;
+  
+
+    }
+
+    #header-icon {
+
+
+        width: 80vw;
+        
+        margin: 0 auto;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .icon {
+
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 0.5rem;
+        gap: 1rem;
+
+
+    }
+
+    .icon img {
+        width: 2.5vw;
+
+    }
+
+    .icon h2 {
+        font-size: 1vw;
+        color: #000;
+    }
+
+    .logo img {
+        width: 9vw;
+
+    }
+
+    .logo {
+        padding: 0.5rem;
+
+
+    }
+
+
+}
+
+
+/* _______Section MIDIA SCREEM 780px _______ */
+@media screen and (max-width:780px) {
+    #section {
+        background-color: #4c988a;
+        width: 100vw;
+        height: 96vh;
+
+
+
+    }
+
+    #header-icon {
+
+
+        width: 80vw;
+  
+        margin: 0 auto;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .icon {
+
+        width: 25vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 0.5rem;
+        gap: 1rem;
+
+
+
+    }
+
+
+    .icon img {
+        width: 4vw;
+
+    }
+
+    .icon h2 {
+
+        font-size: 1.5vw;
+        color: #000;
+
+    }
+
+    .logo img {
+        width: 18vw;
+
+    }
+
+
+
+
+}
+
+
+/* _______Section MIDIA SCREEM 500px _______ */
+@media screen and (max-width:500px) {
+    #section {
+        background-color: #4c988a;
+        width: 100vw;
+        height: 96vh;
+
+
+    }
+
+    #header-icon {
+
+
+        width: 80vw;
+
+        margin: 0 auto;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+/* _______NAV 2 _______ */
+
+#header-menu {
+
+
+    box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.201);
+    width: 80vw;
+    margin: 0 auto;
+    height: 7vh;
+    background-color: #3ba08d;
+
+    z-index: 99;
+
+
+}
+
+
+
+
+
+
+#header-menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+
+    height: 7vh;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+#header-menu li {
+
+
+    display: flex;
+    align-items: center;
+
+
+    justify-content: center;
+    cursor: pointer;
+    font-size: clamp(16px, 1vw, 24px);
+}
+
+
+
+
+#header-menu a {
+    text-decoration: none;
+    color: white;
+    height: 7vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header-menu a:active {}
+
+#header-menu a:hover {
+    background-color: #188e76;
+    transition: 0.3s ease;
+
+}
+
+
+/* _______NAV 2 MIDIA SCREEM 1400px _______ */
+@media screen and (max-width:1400px) {
+    #header-menu {
+
+
+        box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.201);
+        width: 80%;
+        margin: 0 auto;
+        height: 8vh;
+       backdrop-filter: blur(10px);
+
+        z-index: 99;
+       
+
+
+    }
+
+
+
+
+
+
+    #header-menu ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+
+        height: 8vh;
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    #header-menu li {
+
+
+        display: flex;
+        align-items: center;
+
+
+        justify-content: center;
+        cursor: pointer;
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
+
+
+
+    #header-menu a {
+        text-decoration: none;
+        color: white;
+        height: 8vh;
+        width: 10vw;
+        font-size: 1.3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #header-menu a:active {}
+
+    #header-menu a:hover {
+        background-color: #188e76;
+        transition: 0.3s ease;
+
+    }
+
+
+}
+
+/* _______NAV 2 MIDIA SCREEM 1000px _______ */
+@media screen and (max-width:1000px) {
+    #header-menu {
+
+
+        box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.201);
+        width: 80vw;
+        margin: 0 auto;
+        height: 8vh;
+        background-color: #3ba08d;
+
+        z-index: 99;
+
+
+    }
+
+
+
+
+
+
+    #header-menu ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+
+        height: 8vh;
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    #header-menu li {
+
+
+        display: flex;
+        align-items: center;
+
+
+        justify-content: center;
+        cursor: pointer;
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
+
+
+
+    #header-menu a {
+        text-decoration: none;
+        color: white;
+        height: 8vh;
+        width: 10vw;
+        font-size: 1.3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #header-menu a:active {}
+
+    #header-menu a:hover {
+        background-color: #188e76;
+        transition: 0.3s ease;
+
+    }
+
+
+}
+
+/* _______NAV 2 MIDIA SCREEM 780px _______ */
+@media screen and (max-width:780px) {
+    #header-menu {
+
+
+        box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.201);
+        width: 80vw;
+        margin: 0 auto;
+        height: 8vh;
+        background-color: #3ba08d;
+
+        z-index: 99;
+
+
+    }
+
+
+
+
+
+
+    #header-menu ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+
+        height: 8vh;
+        width: 70vw;
+
+        margin: 0 auto;
+    }
+
+    #header-menu li {
+
+
+        display: flex;
+        align-items: center;
+        width: 70vw;
+
+        justify-content: center;
+        cursor: pointer;
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
+
+
+
+    #header-menu a {
+        text-decoration: none;
+        color: white;
+        height: 8vh;
+        width: 10vw;
+        font-size: 1.7vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #header-menu a:active {}
+
+    #header-menu a:hover {
+        background-color: #188e76;
+        transition: 0.3s ease;
+
+    }
+
+
+}
+
+/* _______NAV 2 MIDIA SCREEM 500px _______ */
+@media screen and (max-width:500px) {
+    #header-menu {
+
+
+        box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.201);
+        width: 100vw;
+        margin: 0 auto;
+        height: 8vh;
+        background-color: #3ba08d;
+
+        z-index: 99;
+
+
+    }
+
+
+
+
+
+
+    #header-menu ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+
+        height: 8vh;
+        width: 85vw;
+
+        margin: 0 auto;
+    }
+
+    #header-menu li {
+
+
+        display: flex;
+        align-items: center;
+        width: 85vw;
+
+        justify-content: center;
+        cursor: pointer;
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
+
+
+
+    #header-menu a {
+        text-decoration: none;
+        color: white;
+        height: 8vh;
+        width: 10vw;
+        font-size: 2vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #header-menu a:active {}
+
+    #header-menu a:hover {
+        background-color: #188e76;
+        transition: 0.3s ease;
+
+    }
+
+
+}
+
+
+
+
+/* ____NAV 3_____ */
+#header-menu-3 {
+    box-shadow: 2px 2px 2rem rgba(0, 0, 0, 0.201);
+    width: 100vw;
+
+    height: 7vh;
+    background-color: #3ba08d;
+
+    position: fixed;
+    top: -80px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background-color: #f1f1f1;
+
+    z-index: 99;
+}
+
+#header-menu-3 {
+
+
+    box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.201);
+    width: 100vw;
+    margin: 0 auto;
+    height: 7vh;
+    background-color: #3ba08d;
+
+    z-index: 99;
+
+}
+
+
+#header-menu-3 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+
+    height: 7vh;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+#header-menu-3 li {
+
+
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    cursor: pointer;
+    font-size: clamp(16px, 1vw, 24px);
+}
+
+
+
+
+#header-menu-3 a {
+    text-decoration: none;
+    color: white;
+    height: 7vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header-menu-3 a:active {}
+
+#header-menu-3 a:hover {
+    background-color: #188e76;
+    transition: 0.3s ease;
+
+}
+
+
+/* ____NAV 3 MIDIA SCREEM 1400_____ */
+@media screen and (max-width:1400px) {
+    #header-menu-3 {
+        box-shadow: 2px 2px 2rem rgba(0, 0, 0, 0.201);
+        width: 100vw;
+
+        height: 8vh;
+        background-color: #3ba08d;
+
+        position: fixed;
+        top: -80px;
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        background-color: #f1f1f1;
+
+        z-index: 99;
+    }
+
+    #header-menu-3 {
+
+
+        box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.201);
+        width: 100vw;
+        margin: 0 auto;
+        height: 8vh;
+        background-color: #3ba08d;
+
+        z-index: 99;
+
+    }
+
+
+    #header-menu-3 ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+
+        height: 8vh;
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    #header-menu-3 li {
+
+
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+        cursor: pointer;
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
+
+
+
+    #header-menu-3 a {
+        text-decoration: none;
+        color: white;
+        height: 8vh;
+        width: 10vw;
+        display: flex;
+        align-items: center;
+        font-size: 1.4vw;
+        justify-content: center;
+
+    }
+
+    #header-menu-3 a:active {}
+
+    #header-menu-3 a:hover {
+        background-color: #188e76;
+        transition: 0.3s ease;
+
+    }
+}
+
+/* ____NAV 3 MIDIA SCREEM 1000px_____ */
+@media screen and (max-width:1000px) {
+    #header-menu-3 {
+        box-shadow: 2px 2px 2rem rgba(0, 0, 0, 0.201);
+        width: 100vw;
+
+        height: 8vh;
+        background-color: #3ba08d;
+
+        position: fixed;
+        top: -80px;
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        background-color: #f1f1f1;
+
+        z-index: 99;
+    }
+
+    #header-menu-3 {
+
+
+        box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.201);
+        width: 100vw;
+        margin: 0 auto;
+        height: 8vh;
+        background-color: #3ba08d;
+
+        z-index: 99;
+
+    }
+
+
+    #header-menu-3 ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+
+        height: 8vh;
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    #header-menu-3 li {
+
+
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+        cursor: pointer;
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
+
+
+
+    #header-menu-3 a {
+        text-decoration: none;
+        color: white;
+        height: 8vh;
+        width: 10vw;
+        display: flex;
+        align-items: center;
+        font-size: 1.7vw;
+        justify-content: center;
+
+    }
+
+    #header-menu-3 a:active {}
+
+    #header-menu-3 a:hover {
+        background-color: #188e76;
+        transition: 0.3s ease;
+
+    }
+}
+
+
+
+
+/* ____NAV 3 MIDIA SCREEM 500px_____ */
+@media screen and (max-width:500px) {
+    #header-menu-3 {
+        box-shadow: 2px 2px 2rem rgba(0, 0, 0, 0.201);
+        width: 100vw;
+
+        height: 8vh;
+        background-color: #3ba08d;
+
+        position: fixed;
+        top: -80px;
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        background-color: #f1f1f1;
+
+        z-index: 99;
+    }
+
+    #header-menu-3 {
+
+
+        box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.201);
+        width: 100vw;
+        margin: 0 auto;
+        height: 8vh;
+        background-color: #3ba08d;
+
+        z-index: 99;
+
+    }
+
+
+    #header-menu-3 ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+
+        height: 8vh;
+        width: 80vw;
+
+        margin: 0 auto;
+    }
+
+    #header-menu-3 li {
+
+
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        justify-content: center;
+        cursor: pointer;
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
+
+
+
+    #header-menu-3 a {
+        text-decoration: none;
+        color: white;
+        height: 8vh;
+        width: 10vw;
+        display: flex;
+        align-items: center;
+        font-size: 2.2vw;
+        justify-content: center;
+
+    }
+
+    #header-menu-3 a:active {}
+
+    #header-menu-3 a:hover {
+        background-color: #188e76;
+        transition: 0.3s ease;
+
+    }
+}
+
+
+
+
+
+
+
+
+/* __________Main 1__________ */
+
+#content {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+
+    height: 74vh;
+    margin-top: 2vh;
+    align-items: center;
+    
+
+}
+
+.conteudo {
+ 
+    height: 52.9vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+
+
+}
+
+.texto {
+
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 1rem;
+
+
+}
+
+.texto h1 {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 2.8vw;
+    animation-name: slide-from-left;
+  animation-duration: 3s;
+
+
+
+
+}
+
+.texto h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7vw;
+    animation-name: slide-from-left;
+  animation-duration: 4s;
+
+}
+
+.texto span {
+
+    animation-name: slide-from-left;
+  animation-duration: 2s;
+    font-weight: bolder;
+}
+
+.texto button {
+    width: 12vw;
+    padding: 0.8rem;
+    border-radius: 7px;
+    border: none;
+    color: #1d4840;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+    animation-name: slide-from-left;
+  animation-duration: 3s;
+}
+
+.texto button:hover {
+    box-shadow: 2px 2px 1rem black;
+    transition: 0.5s;
+}
+
+.texto button img {
+    width: 1.3vw;
+}
+
+.texto p {
+    animation-name: slide-from-left;
+  animation-duration: 3s;
+    font-size: 0.8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-doutora {
+
+    height: 52.9vh;
+    width: 50%;
+}
+
+.img-doutora {}
+
+.img-doutora img {
+
+    opacity: 0.4;
+    z-index: 1;
+
+
+}
+
+.img-doutora {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+#img-background {
+   
+}
+
+#section {
+    // img/img-bk.jpg
+     
+
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    background-image: url('/assets/img/img-bk.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+   
+
+    background-size: cover;
+}
+
+/* __________Main 1 MIDIA SCRIM 1400__________ */
+@media screen and (max-width:1400px) {
+
+    #content {
+
+        width: 80vw;
+        margin: 0 auto;
+        display: flex;
+
+        height: 65vh;
+        margin-top: 2vh;
+        align-items: center;
+
+
+    }
+
+    .conteudo {
+
+        height: 52.9vh;
+
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+
+
+
+    }
+
+    .texto {
+
+        height: 44vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5rem;
+        gap: 1rem;
+
+
+
+
+
+
+    }
+
+    .texto h1 {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 3.2vw;
+
+
+
+    }
+
+    .texto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.6vw;
+
+    }
+
+    .texto span {
+
+        color: #48b7a2;
+        border-radius: 10px;
+        font-size: 2.5vw;
+
+        font-weight: bolder;
+    }
+
+    .texto button {
+        width: 18vw;
+        padding: 0.8rem;
+        border-radius: 7px;
+        border: none;
+        color: #1d4840;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .texto button:hover {
+        box-shadow: 2px 2px 1rem black;
+        transition: 0.5s;
+    }
+
+    .texto button img {
+        width: 2vw;
+    }
+
+    .texto p {
+        font-size: 1vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .img-doutora {
+
+        height: 52.9vh;
+        width: 50%;
+    }
+
+    .img-doutora {}
+
+    .img-doutora img {
+
+        opacity: 0.4;
+        z-index: 1;
+
+
+    }
+
+    .img-doutora {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+    }
+
+    #img-background {}
+
+    #section {
+        background-image: url('/assets/img/img-bk.jpg');
+      
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+
+        background-size: cover;
+    }
+}
+
+
+/* __________Main 1 MIDIA SCRIM 1000px__________ */
+@media screen and (max-width:1000px) {
+
+    #content {
+
+        width: 80vw;
+        margin: 0 auto;
+        display: flex;
+
+        height: 65vh;
+        margin-top: 2vh;
+        align-items: center;
+
+
+    }
+
+    .conteudo {
+
+        height: 52.9vh;
+
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+
+
+
+    }
+
+    .texto {
+
+        height: 45vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5rem;
+        gap: 1rem;
+
+
+
+
+    }
+
+    .texto h1 {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 3.2vw;
+
+
+
+    }
+
+    .texto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.6vw;
+
+    }
+
+    .texto span {
+
+        color: #48b7a2;
+        border-radius: 10px;
+        font-size: 2.5vw;
+
+        font-weight: bolder;
+    }
+
+    .texto button {
+        width: 18vw;
+        padding: 0.8rem;
+        border-radius: 7px;
+        border: none;
+        color: #1d4840;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .texto button:hover {
+        box-shadow: 2px 2px 1rem black;
+        transition: 0.5s;
+    }
+
+    .texto button img {
+        width: 2vw;
+    }
+
+    .texto p {
+        font-size: 1vw;
+        color: #48b7a2;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .img-doutora {
+
+        height: 52.9vh;
+        width: 50%;
+    }
+
+
+
+    .img-doutora {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+    }
+
+    #img-background {}
+
+    #section {
+        background-image: url('/assets/img/img-bk.jpg');
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+
+        background-size: cover;
+    }
+}
+
+
+/* __________Main 1 MIDIA SCRIM 780px__________ */
+@media screen and (max-width:780px) {
+
+    #content {
+
+        width: 100vw;
+        margin: 0 auto;
+        display: flex;
+
+        height: 65vh;
+        margin-top: 2vh;
+        align-items: center;
+
+
+    }
+
+    .conteudo {
+
+        height: 52.9vh;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+
+
+
+    }
+
+    .texto {
+
+        height: 38vh;
+        width: 90vw;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5rem;
+        gap: 1rem;
+
+
+
+
+    }
+
+    .texto h1 {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 5vw;
+
+
+
+    }
+
+    .texto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2vw;
+
+    }
+
+    .texto span {
+
+        color: #48b7a2;
+        border-radius: 10px;
+        font-size: 5vw;
+
+        font-weight: bolder;
+    }
+
+    .texto button {
+        width: 28vw;
+        padding: 0.2rem;
+        border-radius: 7px;
+        border: none;
+        color: #1d4840;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .texto button:hover {
+        box-shadow: 2px 2px 1rem black;
+        transition: 0.5s;
+    }
+
+    .texto button img {
+        width: 5vw;
+    }
+
+    .texto p {
+        font-size: 2.3vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+
+
+    #section {
+        background-image: url('/assets/img/img-bk.jpg');
+        width: 100vw;
+        height: 90vh;
+        background-repeat: no-repeat;
+
+        background-size: cover;
+    }
+}
+
+
+
+/* __________Main 1 MIDIA SCRIM 500px__________ */
+@media screen and (max-width:500px) {
+
+    #content {
+
+        width: 100vw;
+        margin: 0 auto;
+        display: flex;
+
+        height: 65vh;
+        margin-top: 2vh;
+        align-items: center;
+
+
+    }
+
+    .conteudo {
+
+        height: 52.9vh;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+
+
+
+    }
+
+    .texto {
+
+        height: 38vh;
+        width: 90vw;
+        margin: 0 auto;
+        border: 2px solid #188e7652;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5rem;
+        gap: 1rem;
+
+        background-color: #00000064;
+        border-radius: 30px 0px 30px 0px;
+        box-shadow: 2px 2px 2rem black;
+
+
+    }
+
+    .texto h1 {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 5.5vw;
+
+
+
+    }
+
+    .texto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.6vw;
+
+    }
+
+    .texto span {
+
+        color: #48b7a2;
+        border-radius: 10px;
+        font-size: 5.5vw;
+
+        font-weight: bolder;
+    }
+
+    .texto button {
+        width: 40vw;
+        padding: 0.8rem;
+        border-radius: 7px;
+        border: none;
+        color: #1d4840;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2.3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .texto button:hover {
+        box-shadow: 2px 2px 1rem black;
+        transition: 0.5s;
+    }
+
+    .texto button img {
+        width: 7vw;
+    }
+
+    .texto p {
+        font-size: 2.3vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+
+
+    #section {
+        background-image: url('/assets/img/img-bk.jpg');
+        width: 100vw;
+        height: 84vh;
+        background-repeat: no-repeat;
+
+        background-size: cover;
+    }
+}
+
+@keyframes slide-from-left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
+
+
+
+
+/* _____section-2_______ */
+
+#section-2 {
+
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-2 div {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60vw;
+    font-size: 1.2vw;
+}
+
+#section-2 h3 {
+    color: #00000087;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#section-2 h1 {
+    font-size: 2vw;
+    color: #1d1313;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* _____section-2 MIDIA SCRIM 1400_______ */
+
+@media screen and (max-width:1400px) {
+    #section-2 {
+
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-2 div {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 60vw;
+
+    }
+
+    #section-2 h3 {
+        color: #00000087;
+        font-size: 1.4vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #section-2 h1 {
+        font-size: 2.8vw;
+        color: #1d1313;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+/* _____section-2 MIDIA SCRIM 780px_______ */
+
+@media screen and (max-width: 780px) {
+    #section-2 {
+
+        width: 100vw;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-2 div {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        height: 28vh;
+
+
+    }
+
+    #section-2 h3 {
+        color: #00000087;
+        font-size: 3.5vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #section-2 h1 {
+        font-size: 9vw;
+        margin-top: 5vh;
+        color: #1d1313;
+
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+/* _____section-2 MIDIA SCRIM 1000px_______ */
+
+@media screen and (max-width:1000px) {
+    #section-2 {
+
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-2 div {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80vw;
+
+
+
+    }
+
+    #section-2 h3 {
+        color: #00000087;
+        font-size: 1.8vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #section-2 h1 {
+        font-size: 3vw;
+        color: #1d1313;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+
+
+
+
+
+/* _____section-3_______ */
+
+#section-3 {
+
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+
+    background-color: #3ba08d;
+
+
+
+
+}
+
+#section-3 div {
+
+    width: 30vw;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+    color: white;
+    gap: 1rem;
+
+
+}
+
+#section-3 .texo-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.img-3 {
+    display: flex;
+
+
+
+
+}
+
+.img-3 img {
+    width: 20vw;
+    height: 90%;
+
+}
+
+#section-3 h1 {
+    font-size: 2.7vw;
+}
+
+#section-3 h4 {
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.806);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* _____section-3 MIDIA SCRIM 1400px_______ */
+@media screen and (max-width:1400px) {
+    #section-3 {
+
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+
+        justify-content: center;
+        background-color: #3ba08d;
+
+
+
+
+    }
+
+    #section-3 div {
+
+        width: 40vw;
+        display: flex;
+        padding: 0.5rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 0 auto;
+        color: white;
+        gap: 1rem;
+
+
+    }
+
+    #section-3 .texo-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .img-3 {
+        display: flex;
+
+
+
+
+    }
+
+    .img-3 img {
+        width: 26vw;
+        height: 90%;
+        
+
+
+
+    }
+
+    .img-3 {}
+
+    #section-3 h1 {
+        font-size: 3.5vw;
+    }
+
+    #section-3 h4 {
+        font-size: 1.5vw;
+        color: rgba(255, 255, 255, 0.806);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+
+}
+
+/* _____section-3 MIDIA SCRIM 1000px_______ */
+@media screen and (max-width:1000px) {
+    #section-3 {
+
+        width: 100vw;
+        height: 75vh;
+        display: flex;
+
+        justify-content: center;
+        background-color: #3ba08d;
+
+
+
+
+    }
+
+    #section-3 div {
+   
+        width: 40vw;
+        display: flex;
+        padding: 0.5rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 0 auto;
+        color: white;
+        gap: 1rem;
+
+
+    }
+
+    #section-3 .texo-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .img-3 {
+        display: flex;
+
+
+
+
+    }
+
+    .img-3 img {
+        width: 32vw;
+        height: 90%;
+
+
+
+    }
+
+    .img-3 {}
+
+    #section-3 h1 {
+        font-size: 3.5vw;
+    }
+
+    #section-3 h4 {
+        font-size: 1.5vw;
+        color: rgba(255, 255, 255, 0.806);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+
+}
+
+/* _____section-3 MIDIA SCRIM 780px_______ */
+@media screen and (max-width: 780px) {
+    #section-3 {
+
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+        background-color: #3ba08d;
+
+
+
+
+    }
+
+    #section-3 div {
+
+
+
+        width: 50%;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        padding: 0.5rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 0 auto;
+        color: white;
+        gap: 1rem;
+        
+
+
+
+    }
+
+    #section-3 .texo-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    
+
+    .img-3 img {
+        width: 38vw;
+        height: 90%;
+
+
+
+
+    }
+
+
+    #section-3 h1 {
+        font-size: 7vw;
+    }
+
+    #section-3 h4 {
+        font-size: 2vw;
+        color: rgba(255, 255, 255, 0.806);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+
+}
+
+/* _____section-3 MIDIA SCRIM 500px_______ */
+@media screen and (max-width: 500px) {
+    #section-3 {
+
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        background-color: #3ba08d;
+
+
+
+
+    }
+
+    #section-3 div {
+
+        width: 100vw;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 0 auto;
+        color: white;
+        gap: 1rem;
+
+
+
+    }
+
+    #section-3 .texo-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .img-3 {
+        display: flex;
+
+
+
+
+    }
+
+    .img-3 img {
+        width: 45vw;
+        height: 100%;
+
+
+
+
+    }
+
+
+    #section-3 h1 {
+        font-size: 7vw;
+    }
+
+    #section-3 h4 {
+        font-size: 2.5vw;
+        color: rgba(255, 255, 255, 0.806);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+
+}
+
+/* ________section-4_________ */
+#section-4 {
+
+    text-align: center;
+    width: 100vw;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.texto-4 h1 {
+    font-size: 2.3vw;
+    margin-bottom: 2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto-4 p {
+    color: #000000dc;
+    font-size: 0.8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards {
+
+    display: flex;
+
+    width: 56vw;
+    margin: 0 auto;
+}
+
+.cards-1 {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+    /* animation-name:slide-from-bottom ;
+    animation-duration: 2s; */
+
+}
+
+.cards-1 div {
+
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+
+.cards-1 img {
+    width: 15vw;
+    height: 30vh;
+
+    position: relative;
+
+}
+
+.botao-card {
+    background-color: #188e76;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 9;
+    margin-top: 10vh;
+    left: 32.3vw;
+    color: white;
+    transition: 0.5s;
+    font-size: 0.7vw;
+}
+
+.botao-card-2 {
+    background-color: #188e76;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 9;
+    margin-top: 10vh;
+    left: 51.6vw;
+    color: white;
+    transition: 0.5s;
+    font-size: 0.7vw;
+}
+
+.botao-card-3 {
+    background-color: #188e76;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 9;
+    margin-top: 10vh;
+    left: 68vw;
+    color: white;
+    transition: 0.5s;
+    font-size: 0.7vw;
+}
+
+.cards-1 button:hover {
+    box-shadow: 2px 2px 2rem black;
+    transition: 0.5s;
+}
+
+/* ________section-4 MIDIA SCREM 1400px_________ */
+
+@media screen and (max-width:1400px) {
+    #section-4 {
+
+        text-align: center;
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .texto-4 h1 {
+        font-size: 3vw;
+        margin-bottom: 1vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .texto-4 p {
+        color: #000000dc;
+        font-size: 1.4vw;
+        margin-bottom: 2vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .cards {
+
+        display: flex;
+
+        width: 56vw;
+
+        margin: 0 auto;
+    }
+
+    .cards-1 {
+        width: 100vw;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+
+        gap: 1rem;
+
+
+
+        
+
+    }
+
+    .cards-1 div {
+
+        height: 20vh;
+
+
+        display: flex;
+        flex-direction: column;
+
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+
+
+
+    }
+
+
+    .cards-1 img {
+        width: 15vw;
+        height: 20vh;
+
+        position: relative;
+
+    }
+
+    .botao-card {
+        background-color: #188e76;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 10vh;
+        left: 32.3vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 0.7vw;
+    }
+
+    .botao-card-2 {
+        background-color: #188e76;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 10vh;
+        left: 51.6vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 0.7vw;
+    }
+
+    .botao-card-3 {
+        background-color: #188e76;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 10vh;
+        left: 68vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 0.7vw;
+    }
+
+    .cards-1 button:hover {
+        box-shadow: 2px 2px 2rem black;
+        transition: 0.5s;
+    }
+}
+
+
+
+
+@keyframes slide-from-bottom {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* ________section-4 MIDIA SCREM 1000px_________ */
+
+@media screen and (max-width:1000px) {
+    #section-4 {
+
+        text-align: center;
+        width: 100vw;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .texto-4 h1 {
+        font-size: 3.2vw;
+        margin-bottom: 2vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .texto-4 p {
+        color: #000000dc;
+        font-size: 1.4vw;
+        margin-bottom: 2vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .cards {
+
+        display: flex;
+
+        width: 56vw;
+
+        margin: 0 auto;
+    }
+
+    .cards-1 {
+        width: 100vw;
+        display: flex;
+        height: 25vh;
+        align-items: center;
+
+
+
+       
+
+    }
+
+    .cards-1 div {
+
+        height: 20vh;
+
+        display: flex;
+        flex-direction: column;
+
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+
+
+
+    }
+
+
+    .cards-1 img {
+        width: 15vw;
+        height: 18vh;
+
+        position: relative;
+
+    }
+
+    .botao-card {
+        background-color: #188e76;
+        padding: 0.8rem;
+
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 10vh;
+        left: 24vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 1.4vw;
+    }
+
+    .botao-card-2 {
+        background-color: #188e76;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 10vh;
+        left: 45vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 1.4vw;
+    }
+
+    .botao-card-3 {
+        background-color: #188e76;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 10vh;
+        left: 62vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 1.2vw;
+    }
+
+    .cards-1 button:hover {
+        box-shadow: 2px 2px 2rem black;
+        transition: 0.5s;
+    }
+}
+
+/* ________section-4 MIDIA SCREM 780px_________ */
+
+@media screen and (max-width:780px) {
+
+
+    #section-4 {
+
+        height: 200vh;
+        width: 100vw;
+
+
+
+
+    }
+
+    .cards {
+
+        width: 100vw;
+        height: 50%;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+
+
+
+    }
+
+    .cards-1 {
+
+        display: flex;
+        height: 100%;
+        width: 100vw;
+
+        flex-direction: column;
+        justify-content: center;
+
+
+
+
+    }
+
+    .cards-1 img {
+        width: 90vw;
+        height: 35vh;
+
+        position: relative;
+        object-fit: cover;
+        background-repeat: no-repeat;
+
+
+
+    }
+
+    #section-4 img {}
+
+    .texto-4 h1 {
+        font-size: 4vw;
+
+    }
+
+    .texto-4 p {
+        font-size: 1.7vw;
+        color: #000;
+
+    }
+
+    .botao-card {
+        background-color: #188e76;
+
+
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 2vh;
+        width: 30%;
+        left: 41vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 2vw;
+    }
+
+    .botao-card-2 {
+        background-color: #188e76;
+
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 2vh;
+        width: 30%;
+        left: 41vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 2vw;
+    }
+
+    .botao-card-3 {
+        background-color: #188e76;
+        width: 30%;
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 2vh;
+
+        left: 41vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 2vw;
+    }
+
+
+}
+
+
+/* ________section-4 MIDIA SCREM 500px_________ */
+
+@media screen and (max-width:500px) {
+
+
+    #section-4 {
+
+        height: 200vh;
+        width: 100vw;
+        gap: 4rem;
+
+
+
+    }
+
+    .cards {
+
+        width: 100vw;
+        height: 50%;
+        margin-top: -10vh;
+
+
+    }
+
+    .cards-1 {
+
+        display: flex;
+        height: 100%;
+        margin-top: -10vh;
+
+        flex-direction: column;
+        justify-content: center;
+
+
+
+    }
+
+    .cards-1 img {
+        width: 90vw;
+        height: 35vh;
+
+        position: relative;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        margin-top: 2vh;
+
+
+    }
+
+    #section-4 img {}
+
+    .texto-4 h1 {
+        font-size: 4vw;
+
+    }
+
+    .texto-4 p {
+        font-size: 1.7vw;
+        color: #000;
+
+    }
+
+    .botao-card {
+        background-color: #188e76;
+
+
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 2vh;
+        width: 30%;
+        left: 41vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 2vw;
+    }
+
+    .botao-card-2 {
+        background-color: #188e76;
+
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 2vh;
+        width: 30%;
+        left: 41vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 2vw;
+    }
+
+    .botao-card-3 {
+        background-color: #188e76;
+        width: 30%;
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 9;
+        margin-top: 2vh;
+
+        left: 41vw;
+        color: white;
+        transition: 0.5s;
+        font-size: 2vw;
+    }
+
+
+}
+
+
+
+
+
+
+@keyframes slide-from-bottom {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* _____MAIN 5 LOCAL DE ATENDIMENTO________ */
+
+#section-5 {
+    background-color: #4c988a;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    box-shadow: 2px 2px 2rem black;
+
+
+}
+
+.texto-atendimento {
+
+    text-align: center;
+    width: 80vw;
+
+    justify-content: center;
+
+    color: white;
+    height: 10vh;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.texto-atendimento h1 {
+    font-size: 2.5vw;
+
+}
+
+.texto-atendimento h3 {
+    font-size: 1.5vw;
+}
+
+#local-atendimento {
+    width: 100vw;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-atentimento {
+
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.img-atentimento img {
+    width: 10vw;
+    border: 3px solid #83b2a9;
+
+
+}
+
+/* _____MAIN 5 LOCAL DE ATENDIMENTO MIDIA SCREM 1400PX________ */
+@media screen and (max-width:1400px) {
+
+    #section-5 {
+        background-color: #4c988a;
+        width: 100vw;
+        height: 80vh;
+        align-items: center;
+        box-shadow: 2px 2px 2rem black;
+
+
+    }
+
+    .texto-atendimento {
+
+        text-align: center;
+        width: 80vw;
+
+        justify-content: center;
+
+        color: white;
+        height: 10vh;
+        margin: 0 auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .texto-atendimento h1 {
+        font-size: 3vw;
+
+    }
+
+    .texto-atendimento h3 {
+        font-size: 1.5vw;
+    }
+
+    #local-atendimento {
+        width: 100vw;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-atentimento {
+
+        width: 80vw;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .img-atentimento img {
+        width: 16vw;
+        border: 3px solid #83b2a9;
+        animation-name: slide-from-left;
+  animation-duration: 1s;
+
+
+    }
+}
+
+/* _____MAIN 5 LOCAL DE ATENDIMENTO MIDIA SCREM 1000PX________ */
+@media screen and (max-width:1000px) {
+
+    #section-5 {
+        background-color: #4c988a;
+        width: 100vw;
+        height: 70vh;
+        align-items: center;
+        box-shadow: 2px 2px 2rem black;
+
+
+    }
+
+    .texto-atendimento {
+
+        text-align: center;
+        width: 80vw;
+
+        justify-content: center;
+
+        color: white;
+        height: 10vh;
+        margin: 0 auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .texto-atendimento h1 {
+        font-size: 3.2vw;
+
+    }
+
+    .texto-atendimento h3 {
+        font-size: 2vw;
+    }
+
+    #local-atendimento {
+        width: 100vw;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-atentimento {
+
+        width: 80vw;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .img-atentimento img {
+        width: 16vw;
+        border: 3px solid #83b2a9;
+        animation-name: slide-from-left;
+  animation-duration: 1s;
+
+
+    }
+}
+
+/* _____MAIN 5 LOCAL DE ATENDIMENTO MIDIA SCREM 7800PX________ */
+@media screen and (max-width:780px) {
+
+    #section-5 {
+        background-color: #4c988a;
+        width: 100vw;
+        height: 85vh;
+        align-items: center;
+        box-shadow: 2px 2px 2rem black;
+
+
+    }
+
+    .texto-atendimento {
+
+        text-align: center;
+        width: 80vw;
+
+        justify-content: center;
+
+        color: white;
+        height: 10vh;
+        margin: 0 auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .texto-atendimento h1 {
+        font-size: 2.5vw;
+
+    }
+
+    .texto-atendimento h3 {
+        font-size: 2vw;
+        margin-top: 0.5rem;
+    }
+
+    #local-atendimento {
+        width: 100vw;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-atentimento {
+
+        height: 65vh;
+        width: 90vw;
+        padding: 0.5rem;
+
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+        margin: 0 auto;
+        margin-top: 1vh;
+    }
+
+    .img-atentimento img {
+        width: 18vw;
+        border: 3px solid #83b2a9;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        animation-name: slide-from-left;
+  animation-duration: 1s;
+
+
+    }
+}
+
+
+/* _____MAIN 5 LOCAL DE ATENDIMENTO MIDIA SCREM 500PX________ */
+@media screen and (max-width:500px) {
+
+    #section-5 {
+        background-color: #4c988a;
+        width: 100vw;
+        height: 90vh;
+        align-items: center;
+        box-shadow: 2px 2px 2rem black;
+
+
+    }
+
+    .texto-atendimento {
+
+        text-align: center;
+        width: 85vw;
+
+
+        justify-content: center;
+
+        color: white;
+        height: 10vh;
+        margin: 0 auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .texto-atendimento h1 {
+        font-size: 4.3vw;
+
+    }
+
+    .texto-atendimento h3 {
+        font-size: 2.5vw;
+        margin-top: 0.5rem;
+    }
+
+    #local-atendimento {
+        width: 100vw;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-atentimento {
+
+        width: 85vw;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .img-atentimento img {
+        width: 25vw;
+        border: 3px solid #83b2a9;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        animation-name: slide-from-left;
+  animation-duration: 1s;
+
+
+    }
+}
+
+
+
+/* _____MAIN 6 DEPOIMENTOS________ */
+
+#section-6 {
+    width: 100vw;
+    height: 70vh;
+
+
+}
+
+#section-6 h1 {
+    font-size: 2.4vw;
+    text-align: center;
+    color: #333333;
+    margin-top: 5vh;
+}
+
+.depoimentos {
+
+    width: 80vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    padding: 2vw;
+
+
+
+}
+
+.img-depoimentos {
+
+    width: 33.3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.img-depoimentos span {
+    font-size: 1.8rem;
+
+}
+
+.img-depoimentos p {
+    font-size: 1vw;
+}
+
+.img-depoimentos img {
+    width: 10vw;
+    box-shadow: 2px 2px 2rem black;
+    border-radius: 50%;
+}
+
+/* _____MAIN 6 DEPOIMENTOS MIDIA SCRIM 1400PX________ */
+
+@media screen and (max-width:1400px) {
+    #section-6 {
+        width: 100vw;
+        height: 75vh;
+
+
+    }
+
+    #section-6 h1 {
+        font-size: 2.4vw;
+        text-align: center;
+        color: #333333;
+        margin-top: 3vh;
+    }
+
+    .depoimentos {
+
+        width: 80vw;
+        gap: 1rem;
+        height: 70vh;
+        margin: 0 auto;
+        display: flex;
+        padding: 2vw;
+
+
+
+    }
+
+    .img-depoimentos {
+
+        width: 33.3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .img-depoimentos span {
+        font-size: 1.8rem;
+
+    }
+
+    .img-depoimentos p {
+        font-size: 1.2vw;
+    }
+
+    .img-depoimentos img {
+        width: 12vw;
+        box-shadow: 2px 2px 2rem black;
+        border-radius: 50%;
+        animation-name: slide-from-left;
+  animation-duration: 3s;
+    }
+}
+
+/* _____MAIN 6 DEPOIMENTOS MIDIA SCRIM 1000PX________ */
+
+@media screen and (max-width:1000px) {
+    #section-6 {
+        width: 100vw;
+        height: 60vh;
+
+
+    }
+
+    #section-6 h1 {
+        font-size: 2.4vw;
+        text-align: center;
+        color: #333333;
+        margin-top: 3vh;
+    }
+
+    .depoimentos {
+
+        width: 80vw;
+        gap: 1rem;
+        height: 50vh;
+        margin: 0 auto;
+        display: flex;
+        padding: 2vw;
+
+
+
+    }
+
+    .img-depoimentos {
+
+        width: 33.3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .img-depoimentos span {
+        font-size: 1.8rem;
+
+    }
+
+    .img-depoimentos p {
+        font-size: 1.2vw;
+    }
+
+    .img-depoimentos img {
+        width: 12vw;
+        box-shadow: 2px 2px 2rem black;
+        border-radius: 50%;
+        animation-name: slide-from-left;
+  animation-duration: 3s;
+    }
+}
+
+/* _____MAIN 6 DEPOIMENTOS MIDIA SCRIM 780PX________ */
+
+@media screen and (max-width:780px) {
+    #section-6 {
+        width: 100vw;
+        height: 70vh;
+
+
+
+
+    }
+
+    #section-6 h1 {
+        font-size: 2.4vw;
+        text-align: center;
+        color: #333333;
+        margin-top: 3vh;
+    }
+
+    .depoimentos {
+
+        width: 85vw;
+        gap: 1rem;
+        height: 50vh;
+        margin: 0 auto;
+        display: flex;
+        padding: 1vw;
+
+
+
+    }
+
+    .img-depoimentos {
+
+        width: 33.3vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .img-depoimentos span {
+        font-size: 1.8rem;
+
+    }
+
+    .img-depoimentos p {
+        font-size: 1.5vw;
+    }
+
+    .img-depoimentos img {
+        width: 15vw;
+        box-shadow: 2px 2px 2rem black;
+        border-radius: 50%;
+        animation-name: slide-from-left;
+  animation-duration: 3s;
+    }
+}
+
+
+/* _____MAIN 6 DEPOIMENTOS MIDIA SCRIM 500PX________ */
+
+@media screen and (max-width:500px) {
+    #section-6 {
+        width: 100vw;
+        height: 70vh;
+
+
+
+
+    }
+
+    #section-6 h1 {
+        font-size: 2.4vw;
+        text-align: center;
+        color: #000;
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+    }
+
+    .depoimentos {
+
+        width: 85vw;
+        gap: 1rem;
+        height: 50vh;
+        margin: 0 auto;
+        display: flex;
+        padding: 1vw;
+
+
+
+    }
+
+    .img-depoimentos {
+
+        width: 33.3vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .img-depoimentos span {
+        font-size: 2.5rem;
+
+
+    }
+
+    .img-depoimentos p {
+        font-size: 2vw;
+    }
+
+    .img-depoimentos img {
+        width: 20vw;
+        box-shadow: 2px 2px 2rem black;
+        border-radius: 50%;
+        animation-name: slide-from-left;
+  animation-duration: 3s;
+    }
+}
+
+@keyframes slide-from-left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
+  @keyframes slide-from-bottom {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
+/* _____MAIN 7 CONTATO________ */
+#section-7 {
+
+    width: 100vw;
+    height: 70vh;
+    background-color: #48b7a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.h1 {
+    color: white;
+    font-size: 2.4vw;
+}
+
+.contato {
+
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cont {
+
+    gap: 1rem;
+    padding: 0.5vw;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    height: 9vh;
+}
+
+.cont img {
+    width: 1.8vw;
+
+}
+
+.cont h1 {
+    color: white;
+    font-size: 1.2vw;
+}
+
+.mapa {
+
+    height: 70vh;
+    width: 50vw;
+}
+
+.mapa iframe {
+    width: 50vw;
+    height: 70vh;
+}
+
+.contato button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #236759;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1vw;
+    cursor: pointer;
+
+
+}
+
+/* _____MAIN 7 CONTATO MIDIA SCRIM 1400PX________ */
+@media screen and (max-width:1400px) {
+    #section-7 {
+
+        width: 100vw;
+        height: 50vh;
+        background-color: #48b7a2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .h1 {
+        color: white;
+        font-size: 2.4vw;
+    }
+
+    .contato {
+
+        height: 50vh;
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .cont {
+
+        gap: 1rem;
+        padding: 0.5vw;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        height: 9vh;
+    }
+
+    .cont img {
+        width: 1.8vw;
+
+    }
+
+    .cont h1 {
+        color: white;
+        font-size: 1.4vw;
+    }
+
+    .mapa {
+
+        height: 50vh;
+        width: 50vw;
+    }
+
+    .mapa iframe {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .contato button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        color: #236759;
+        font-weight: bolder;
+        border-radius: 10px;
+        border: none;
+        padding: 0.2rem;
+        font-size: 1vw;
+        cursor: pointer;
+
+
+    }
+}
+
+/* _____MAIN 7 CONTATO MIDIA SCRIM 1000PX________ */
+@media screen and (max-width:1000px) {
+    #section-7 {
+
+        width: 100vw;
+        height: 40vh;
+        background-color: #48b7a2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .h1 {
+        color: white;
+        font-size: 2.4vw;
+    }
+
+    .contato {
+
+        height: 40vh;
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .cont {
+
+        gap: 1rem;
+        padding: 0.5vw;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        height: 9vh;
+    }
+
+    .cont img {
+        width: 1.2vw;
+
+    }
+
+    .cont h1 {
+        color: white;
+        font-size: 1.4vw;
+    }
+
+    .mapa {
+
+        height: 40vh;
+        width: 50vw;
+    }
+
+    .mapa iframe {
+        width: 50vw;
+        height: 40vh;
+    }
+
+    .contato button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        color: #236759;
+        font-weight: bolder;
+        border-radius: 6px;
+        border: none;
+        padding: 0.4rem;
+        font-size: 1vw;
+        cursor: pointer;
+
+
+    }
+}
+
+
+
+/* _____MAIN 7 CONTATO MIDIA SCRIM 1400PX________ */
+@media screen and (max-width:1400px) {
+    #section-7 {
+
+        width: 100vw;
+        height: 50vh;
+        background-color: #48b7a2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .h1 {
+        color: white;
+        font-size: 2.4vw;
+    }
+
+    .contato {
+
+        height: 50vh;
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .cont {
+
+        gap: 1rem;
+        padding: 0.5vw;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        height: 9vh;
+    }
+
+    .cont img {
+        width: 1.8vw;
+
+    }
+
+    .cont h1 {
+        color: white;
+        font-size: 1.4vw;
+    }
+
+    .mapa {
+
+        height: 50vh;
+        width: 50vw;
+    }
+
+    .mapa iframe {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .contato button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        color: #236759;
+        font-weight: bolder;
+        border-radius: 10px;
+        border: none;
+        padding: 0.2rem;
+        font-size: 1vw;
+        cursor: pointer;
+
+
+    }
+}
+
+/* _____MAIN 7 CONTATO MIDIA SCRIM 780PX________ */
+@media screen and (max-width:780px) {
+    #section-7 {
+
+        width: 100vw;
+        height: 75vh;
+        background-color: #48b7a2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .h1 {
+        color: white;
+        font-size: 4vw;
+        margin-top: 2vh;
+
+    }
+
+    .contato {
+
+        height: 45vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .cont {
+
+
+        padding: 0.5vw;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 9vh;
+
+    }
+
+    .cont img {
+        width: 3.2vw;
+
+    }
+
+    .cont h1 {
+        color: white;
+        font-size: 3vw;
+
+    }
+
+    .mapa {
+
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .mapa iframe {
+        height: 35vh;
+        width: 100vw;
+    }
+
+    .contato button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        color: #236759;
+        font-weight: bolder;
+        border-radius: 6px;
+        border: none;
+        padding: 0.4rem;
+        font-size: 2vw;
+        cursor: pointer;
+
+
+    }
+
+    .button-agenda {
+        width: 28vw;
+        height: 6vh;
+        margin-bottom: 2vh;
+    }
+
+    .button-agenda img {
+        width: 6vw;
+    }
+
+
+}
+
+/* _____MAIN 7 CONTATO MIDIA SCRIM 500PX________ */
+@media screen and (max-width:500px) {
+    #section-7 {
+
+        width: 100vw;
+        height: 70vh;
+        background-color: #48b7a2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .h1 {
+        color: white;
+        font-size: 4vw;
+        margin-top: 2vh;
+
+    }
+
+    .contato {
+
+        height: 35vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .cont {
+
+
+        padding: 0.5vw;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 9vh;
+
+    }
+
+    .cont img {
+        width: 3.2vw;
+
+    }
+
+    .cont h1 {
+        color: white;
+        font-size: 3vw;
+
+    }
+
+    .mapa {
+
+        height: 35vh;
+        width: 100vw;
+    }
+
+    .mapa iframe {
+        height: 35vh;
+        width: 100vw;
+    }
+
+    .contato button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        color: #236759;
+        font-weight: bolder;
+        border-radius: 6px;
+        border: none;
+        padding: 0.4rem;
+        font-size: 2vw;
+        cursor: pointer;
+
+
+    }
+
+    .button-agenda {
+        width: 28vw;
+        height: 6vh;
+        margin-bottom: 2vh;
+    }
+
+    .button-agenda img {
+        width: 6vw;
+    }
+
+
+}
+
+/* _______FOOTER__________ */
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #28927d;
+    color: white;
+    font-size: 0.7vw;
+}
+
+/* _______FOOTER MIDIA SCREEM 1400PX__________ */
+@media screen and (max-width:1400px) {
+    footer {
+        display: flex;
+        width: 100vw;
+        height: 4vh;
+        align-items: center;
+        justify-content: center;
+        background-color: #28927d;
+        color: white;
+        font-size: 0.9vw;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    footer {
+        display: flex;
+        width: 100vw;
+        height: 4vh;
+        align-items: center;
+        justify-content: center;
+        background-color: #28927d;
+        color: white;
+        font-size: 0.9vw;
+    }
+}
+
+@media screen and (max-width:780px) {
+    footer {
+        display: flex;
+        width: 100vw;
+        height: 8vh;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #28927d;
+        color: white;
+        font-size: 1.3vw;
+    }
+}
